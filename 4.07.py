@@ -1,3 +1,6 @@
-print("hello world")
 
-print(input("whats your name?"))
+def greeting():
+    name = input("whats your name?")
+    print(f"hello {name}")
+
+greeting()
